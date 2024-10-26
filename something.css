@@ -1,0 +1,57 @@
+form
+{
+    background-color: cyan;
+    margin-left: 550px; 
+    margin-right: 600px;
+    margin-top: 200px;
+    width: 350px;
+}
+body
+{
+    background-color: cyan;
+}
+.top input
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: 'Courier New', Courier, monospace;
+   
+    
+}
+button
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-left: 110px;
+    font-family: 'Courier New', Courier, monospace;
+    color: crimson;
+    margin-top: 20px;
+}
+label
+{
+    color: crimson;
+}
+h1
+{
+    color: crimson;
+    margin-left: 20px;
+}
+.gender input
+{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: crimson;
+    
+}
+.gender .chee
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+}
