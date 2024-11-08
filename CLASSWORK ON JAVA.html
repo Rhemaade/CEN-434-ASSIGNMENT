@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function factorial(n) {
+            if (n <= 1) {
+              return 1;
+            } else {
+              return n * factorial(n - 1);
+            }
+          }
+
+        let combination = function(x,y){
+            if (x>y){
+                return factorial(x)/ (factorial(y) * factorial(x-y));
+            }
+            else if (x===y){
+                return factorial(x+1)/ (factorial(y)*factorial(1));
+            }
+            else if (x<y) {
+                return factorial(y)/(factorial(x)*factorial(x-y));
+            }
+        }
+
+        let x = 7;
+        let y = 3;
+
+        console.log(combination(x,y));
+
+          
+    
+    </script> 
+</body>
+</html>
